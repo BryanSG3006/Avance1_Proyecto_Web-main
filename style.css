@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    color: #fff;
+    padding: 2em 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'EduTasBeginner';
+    line-height: 1.5em;
+    /* color: #028391;*/
+    color: #C73659;
+    padding: 1%;
+    text-align: center;
+}
+
+main {
+    padding: 2em 1em;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #A91D3A;
+    margin: 0;
+    padding: 0.7%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#img-principal {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+A:hover {
+    opacity: 0.7;
+}
+
+.Encabezado_container {
+    width: 100%;
+    display: grid;
+    grid-template-areas: "Logo Llantas_Encabezado";
+    grid-template-columns: 25% 50% 25%;
+
+    .Logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: Logo;
+    }
+
+    .Llantas_Encabezado {
+        display: flex;
+        grid-area: Llantas_Encabezado;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+    }
+}
+
+.Productos {
+    margin-bottom: 2em;
+}
+
+.Productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Producto {
+    flex: calc(100vw/5);
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.Productos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.Imagenes-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    /*background-color: #B52846;*/
+}
+
+/* 
+.carrusel {
+   /* background-color: #B52846;*/
+/*box-shadow: 0 0 10px 0 #B52846;*/
+
+
+
+.Imagenes-container ul {
+    display: flex;
+    padding: 0;
+    width: 600%;
+    animation: slide-animation 30s infinite alternate;
+}
+
+.Imagenes-container li {
+    list-style: none;
+    flex: 1 0 16.6666%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Imagenes-container img {
+    width: 60%;
+    max-width: 450px;
+    max-height: 550px;
+}
+
+@keyframes slide-animation {
+    0% {
+        margin-left: 0%;
+    }
+
+    20% {
+        margin-left: 0%;
+    }
+
+    40% {
+        margin-left: -100%;
+    }
+
+    60% {
+        margin-left: -200%;
+    }
+
+    80% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -400%;
+    }
+}
+
+footer {
+    margin-top: 5px;
+    border: 2px solid #A91D3A;
+    background-color: #151515;
+    color: #fff;
+    padding: 5px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.pie-pagina {
+    background-color: #333;
+    color: #fff;
+    padding: 9px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+
+    padding: 0 20px;
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociales p {
+    margin: 0;
+}
+
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.redes-sociales a:hover {
+    color: #A91D3A;
+}
+
+.derechos {
+    text-align: right;
+}
+
+.derechos p {
+    margin: 0;
+    font-size: 0.9em;
+
+}
+
+.Integrantes {
+    margin-bottom: 2em;
+}
+
+.Integrantes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Integrante {
+    flex: calc(100vw/5);
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.Integrantes img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
