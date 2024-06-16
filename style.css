@@ -449,8 +449,12 @@ footer {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: center;
+    gap: 2rem;
     padding-bottom: 60px
+
+
+   
 }
 
 
@@ -539,7 +543,7 @@ footer {
     .card2 {
         flex: 1 1 100%;
         padding: 20px;
-        min-height: 350px;
+        min-height: 400px;
         min-width: auto;
 
     }
@@ -635,7 +639,7 @@ footer {
     .card4 {
         flex: 1 1 100%;
         padding: 20px;
-        min-height: 350px;
+        min-height: 400px;
         min-width: auto;
 
     }
