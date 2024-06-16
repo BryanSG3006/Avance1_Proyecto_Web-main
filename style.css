@@ -490,7 +490,7 @@ footer {
     .card {
         flex: 1 1 100%;
         padding: 20px;
-        min-height: 350px;
+        min-height: 400px;
         min-width: auto;
 
     }
@@ -587,7 +587,7 @@ footer {
     .card3 {
         flex: 1 1 100%;
         padding: 20px;
-        min-height: 350px;
+        min-height: 400px;
         min-width: auto;
 
     }
