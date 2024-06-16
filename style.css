@@ -491,8 +491,8 @@ footer {
         flex: 1 1 100%;
         padding: 20px;
         min-height: 300px;
-        min-width: 250px;
-        /* Ajusta este valor según sea necesario */
+        min-width: auto;
+
     }
 
     .card__tittle {
@@ -540,8 +540,8 @@ footer {
         flex: 1 1 100%;
         padding: 20px;
         min-height: 300px;
-        min-width: 250px;
-        /* Ajusta este valor según sea necesario */
+        min-width: auto;
+
     }
 
     .card__tittle {
@@ -588,8 +588,8 @@ footer {
         flex: 1 1 100%;
         padding: 20px;
         min-height: 300px;
-        min-width: 250px;
-        /* Ajusta este valor según sea necesario */
+        min-width: auto;
+
     }
 
     .card__tittle {
@@ -636,8 +636,8 @@ footer {
         flex: 1 1 100%;
         padding: 20px;
         min-height: 300px;
-        min-width: 250px;
-        /* Ajusta este valor según sea necesario */
+        min-width: auto;
+
     }
 
     .card__tittle {
@@ -684,8 +684,8 @@ footer {
         flex: 1 1 100%;
         padding: 20px;
         min-height: 300px;
-        min-width: 250px;
-        /* Ajusta este valor según sea necesario */
+        min-width: auto;
+        
     }
 
     .card__tittle {
