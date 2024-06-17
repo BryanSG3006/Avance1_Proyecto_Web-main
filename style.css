@@ -459,7 +459,7 @@ footer {
 
 /*Card 1*/
 
-@media (max-width: 580px) {
+@media (max-width: 480px) {
     .card {
         flex: 1 0 100%;
     }
