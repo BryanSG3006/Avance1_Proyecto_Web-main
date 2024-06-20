@@ -500,12 +500,6 @@ main h2 {
 }
 
 
-.articulos {
-    border-bottom: 1px solid #CCC;
-    padding-bottom: 20px;
-   
-}
-
 .articulos-container {
     display: flex;
     flex-wrap: wrap;
@@ -514,6 +508,7 @@ main h2 {
 
 .articulo {
     width: calc(33% - 20px);
+    flex: 0 0 calc(33% - 20px);
     margin-bottom: 20px;
     padding: 20px;
     background-color: #FFF;
@@ -526,7 +521,6 @@ main h2 {
     margin-bottom: 10px;
 }
 
-
 .articulo p {
     line-height: 1.6;
     margin-bottom: 10px;
@@ -536,4 +530,15 @@ main h2 {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+}
+
+.articulo-2 {
+    width: calc(33% - 20px);
+    flex: 0 0 calc(33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid #A91D3A;
+    margin: 0 auto;
 }
