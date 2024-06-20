@@ -372,18 +372,13 @@ form {
     background-color: #333333;
     padding: 30px;
     border-radius: 10px;
-    width: 100%;
-    max-width: 600px;
+    width: 600px;
     margin: 40px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
 }
 
 .campo {
     margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
 }
 
 label {
@@ -422,7 +417,7 @@ select {
     background-image: url("https://acnews.blob.core.windows.net/imgnews/medium/NAZ_45b540e25b114b72b0c1c8f32022c0dd.webp");
 }
 
-button[type="submit"] {
+button[type="reset"] {
     background-color: #C73659;
     color: #FFFFFF;
     padding: 15px 30px;
@@ -431,12 +426,12 @@ button[type="submit"] {
     font-size: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
-    align-self: center;
 }
 
-button[type="submit"]:hover {
+button[type="reset"]:hover {
     background-color: #C73659;
 }
+
 
 .contenedor {
     width: 100%;
@@ -502,4 +497,43 @@ main h2 {
         width: 100%;
         padding: 15px 0;
     }
+}
+
+
+.articulos {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+   
+}
+
+.articulos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articulo {
+    width: calc(33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid #A91D3A;
+}
+
+.articulo h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+
+.articulo p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.articulo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
