@@ -8,6 +8,7 @@
 header {
     color: #fff;
     padding: 2em 0;
+    
 }
 
 body {
@@ -719,3 +720,43 @@ main h2 {
         margin-bottom: 20px;
     }
 }
+
+video {
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.Informacion {
+    background-color: #1E1E1E;
+    border: 3px solid #A91D3A;
+    border-radius: 50px;
+    padding: 30px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Informacion h2 {
+    color: #C73659;
+    border-bottom: 2px solid #A91D3A;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.Informacion p {
+    color: #EEEEEE;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
