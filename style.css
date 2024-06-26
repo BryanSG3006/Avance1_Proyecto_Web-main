@@ -42,6 +42,7 @@ main {
     background: #A91D3A;
     width: 100%;
     height: 50px;
+    z-index: 1000;
 }
 
 nav {
@@ -54,6 +55,8 @@ nav {
     background: #A91D3A;
     transform: translateX(-100%);
     transition: .4s ease;
+    z-index: 1000;
+
 }
 
 .navigation li {
