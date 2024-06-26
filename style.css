@@ -784,3 +784,45 @@ video {
    
 }
 
+
+
+aside {
+    width: 250px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-left: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    overflow-y: auto;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+aside nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside nav ul li {
+    margin: 15px 0;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+aside nav ul li a:hover {
+    color: #007BFF;
+}
+
