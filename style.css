@@ -635,6 +635,12 @@ main h2 {
     justify-content: space-between;
 }
 
+.articulos-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .articulo {
     width: calc(33% - 20px);
     margin-bottom: 20px;
