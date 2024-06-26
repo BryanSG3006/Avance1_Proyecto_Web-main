@@ -744,7 +744,7 @@ video {
 
 @media (min-width: 1025px) {
     video {
-        width: 90%;
+        width: 60%;
         margin: 30px auto;
     }
 }
