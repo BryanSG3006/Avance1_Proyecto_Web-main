@@ -784,45 +784,81 @@ video {
    
 }
 
-
+#toggle {
+    display: none;
+}
+label[for="toggle"] {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #C73659;
+    color: white;
+    padding: 10px 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+    z-index: 1001;
+    transition: right 0.3s;
+}
 
 aside {
-    width: 250px;
-    padding: 20px;
-    background-color: #f7f7f7;
-    border-left: 1px solid #ddd;
     position: fixed;
-    top: 0;
     right: 0;
-    height: 100%;
-    overflow-y: auto;
-    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.1);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1000;
+    transition: right 0.3s;
 }
 
-aside h2 {
-    font-size: 1.5em;
-    margin-top: 0;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
+#toggle:checked~aside {
+    right: -200px;
 }
 
-aside nav ul {
-    list-style: none;
-    padding: 0;
+aside .opaco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-aside nav ul li {
-    margin: 15px 0;
+aside .aside {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
 }
 
-aside nav ul li a {
+aside .aside a {
+    display: block;
+    padding: 10px 15px;
+    color: #C73659;
     text-decoration: none;
-    color: #333;
-    font-size: 1.1em;
-    transition: color 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-aside nav ul li a:hover {
-    color: #007BFF;
+aside .aside a:hover {
+    background-color: #C73659;
+    color: #fff;
 }
 
+aside .aside a:focus {
+    outline: none;
+    background-color: #C73659;
+    color: #fff;
+}
+
+aside .aside:first-child a {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+aside .aside:last-child a {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
