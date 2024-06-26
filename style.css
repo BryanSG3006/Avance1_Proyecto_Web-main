@@ -8,7 +8,7 @@
 header {
     color: #fff;
     padding: 2em 0;
-    
+
 }
 
 body {
@@ -787,12 +787,13 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 #toggle {
     display: none;
 }
+
 label[for="toggle"] {
     position: fixed;
     right: 0;
